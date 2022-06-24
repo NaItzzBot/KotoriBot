@@ -1,0 +1,14 @@
+{
+  "ownerNumber": ["62882008356011"],
+  "ownerName": ["SirKel"],
+  "Instagram": "chris.tianid",
+  "botName": "K o t o r i",
+  "sessionName": "session",
+  "pathimg": "./media/chris2.jpg",
+  "gamewaktu": 90,
+  "limitCount": 40,
+  "gcount": {
+	"prem": 9999,
+	"user": 30
+  }
+}
