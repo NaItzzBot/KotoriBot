@@ -322,7 +322,7 @@ module.exports = async(conn, msg, m, setting, store) => {
 		}
 		//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+${ownerNumber}` } },
 		const buttonsDefault = [
-			{ urlButton: { displayText: `Group Izumi Bot`, url : `${grup}` } },
+			{ urlButton: { displayText: `Group Kotori Bot`, url : `${grup}` } },
 			{ urlButton: { displayText: `Nomer Owner`, url : `` } },
 			{ quickReplyButton: { displayText: `💰 Donasi`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `Script`, id: `${prefix}sc` } },
@@ -333,24 +333,24 @@ module.exports = async(conn, msg, m, setting, store) => {
 			{ quickReplyButton: { displayText: `Back To Menu 🔙`, id: `${prefix}menu` } },
 		]
 		const buttonsSewa = [
-			{ urlButton: { displayText: `Group Izumi Bot`, url : `${grup}` } },
+			{ urlButton: { displayText: `Group Kotori Bot`, url : `${grup}` } },
 			{ urlButton: { displayText: `Nomer Owner`, url : `${nomorown}` } },
 			{ quickReplyButton: { displayText: `Donasi`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `Menu`, id: `${prefix}menu` } },
 		]
 		const buttonsMenu = [
-			{ urlButton: { displayText: `Group Izumi Bot`, url : `${grup}` } },
+			{ urlButton: { displayText: `Group Kotori Bot`, url : `${grup}` } },
 			{ urlButton: { displayText: `Nomer Owner`, url : `${nomorown}` } },
 			{ quickReplyButton: { displayText: `Donasi`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `Rules`, id: `${prefix}rules` } },
 			{ quickReplyButton: { displayText: `Premium`, id: `${prefix}daftarprem` } },
 		]
 		const buttonsDiamondFF = [
-			{ urlButton: { displayText: `Group Izumi Bot`, url : `${grup}` } },
+			{ urlButton: { displayText: `Group Kotori Bot`, url : `${grup}` } },
 			{ quickReplyButton: { displayText: `Format ID`, id: `${prefix}formatid` } },
 		]
 		const buttonsAllmenu = [
-		    { urlButton: { displayText: `Group Izumi Bot`, url : `${grup}` } },
+		    { urlButton: { displayText: `Group Kotori Bot`, url : `${grup}` } },
 			{ quickReplyButton: { displayText: `All Menu`, id: `${prefix}allmenu` } },
 			{ quickReplyButton: { displayText: `Rules`, id: `${prefix}rules` } },
 		]
