@@ -544,7 +544,7 @@ if (chats.startsWith("@37258266435")){
 		switch(command) {
 			// Main Menu
 			case prefix+'allmenu':
-			  conn.sendMessage(from, { audio: fs.readFileSync('audio/Menu.m4a'), mimetype: 'audio/mp4', ptt: true}, {quoted: msg})
+			  /*conn.sendMessage(from, { audio: fs.readFileSync('audio/Menu.m4a'), mimetype: 'audio/mp4', ptt: true}, {quoted: msg})*/
 			    var teks = allmenu(sender, prefix, pushname, isOwner, isPremium, balance, limit, limitCount, glimit, gcount)
 			    
 				/*conn.sendMessage(from, { react: { text: `👋`, key: msg.key }})*/
@@ -693,9 +693,6 @@ case prefix+'claim': //By Christian ID
   addBalance(sender, htgm, balance)
   reply(`Selamat Anda Mendapatkan ${htgm} Balance`)
   break
-case prefix+'groupizumi':
-  reply(`Group Izumi Bot\n${grup}`)
-  break
 			case prefix+'speed':
 			  reply("Testing Speed...")
 			    let timestamp = speed();
@@ -705,10 +702,10 @@ case prefix+'groupizumi':
 case prefix+'infobot':
   case prefix+'inforobot':
     case prefix+'info':
-      var caption = `*[ INFO IZUMI BOT ]*
+      var caption = `*[ INFO KOTORI BOT ]*
 
-*Nama Bot :* Izumi - MD
-*Name Owner :* Christian ID
+*Nama Bot :* Kotori - MD
+*Name Owner :* SirkelBot
 *Nomor Bot :* wa.me/${nobot}
 *Nomor Owner :* wa.me/${ownerNumber}
 *Engine :* NodeJs
@@ -1081,7 +1078,7 @@ case prefix+'bc': case prefix+'broadcast':
 		            if (args.length < 2) return reply(`Masukkan isi pesannya`)
                             var data = await store.chats.all()
                             for (let i of data) {
-                               conn.sendMessage(i.id, { text: `*[ IZUMI BROADCAST ]*\n\n${q}` })
+                               conn.sendMessage(i.id, { text: `*[ KOTORI BROADCAST ]*\n\n${q}` })
                                await sleep(1000)
                             }
                             break
