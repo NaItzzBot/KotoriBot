@@ -721,7 +721,7 @@ Thanks To
 - Hardianto
 - Febri`
 
-conn.sendMessage(from, {caption: caption, location: fs.readFileSync('media/chris2.jpg')}, {quoted: msg})
+conn.sendMessage(from, {caption: caption, fs.readFileSync('media/chris2.jpg')}, {quoted: msg})
 break
 			/*case prefix+'donate':
 			case prefix+'donasi':
